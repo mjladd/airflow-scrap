@@ -10,11 +10,13 @@ echo -e "AIRFLOW_UID=$(id -u)" > .env
 curl -LfO 'https://airflow.apache.org/docs/apache-airflow/2.2.2/airflow.sh'
 chmod +x airflow.sh
 ```
+
 ## Initialize the DB
 
 ```shell
 docker-compose up airflow-init
 ```
+
 This creates user `airflow` with password `airflow`.
 
 ## Cleanup / Restart from scratch
@@ -29,6 +31,7 @@ docker-compose down --volumes --rmi all
 ```shell
 docker-compose up
 ```
+
 This will start 6 containers.
 
 ## Accessing the environment
@@ -36,12 +39,12 @@ This will start 6 containers.
 ```shell
 ./airflow.sh info
 ./airflow.sh bash
-./ariflow.sh python
+./airflow.sh python
 ```
+
 ### Web interface
 
 <http://localhost:8080>
 user: airflow
 pass: airflow
-
 
