@@ -1,3 +1,4 @@
 .env
 __pycache*
 logs/*/*.log
+logs/*
