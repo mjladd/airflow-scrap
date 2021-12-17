@@ -47,4 +47,3 @@ This will start 6 containers.
 <http://localhost:8080>
 user: airflow
 pass: airflow
-
