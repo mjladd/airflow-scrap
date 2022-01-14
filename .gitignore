@@ -1,2 +1,5 @@
 .env
 logs/scheduler/*
+__pycache*
+logs/*/*.log
+logs/*
