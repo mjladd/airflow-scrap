@@ -3,3 +3,4 @@ logs/scheduler/*
 __pycache*
 logs/*/*.log
 logs/*
+logs/dag_processor_manager/*
